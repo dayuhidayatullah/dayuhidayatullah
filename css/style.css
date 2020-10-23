@@ -38,10 +38,19 @@ button{background: #334d50;
        font-weight: bold;
        border: 1px solid black;
         cursor: pointer; 
-        width: 200px;
+        width: 140px;
         height: 40px; 
-        font-size: 22px;
+        font-size: 18px;
         display: block;
-        margin: 10px auto}
+        margin :10px;
+        }
 
-.win{background: #F9690E; color: #fff}
+.container-button{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.win{background: #cbcaa5; color: #334d50}
